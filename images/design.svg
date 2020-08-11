@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512" height="512" viewBox="0 0 512 512" id="design" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Piping -->
+  <path d="m0 98v300h42v114h20v-250h-20v116h-22v-260h42v-20h-42z" fill="black" style="paint-order:normal"/>
+  <path d="m402 0v98h-40v20h60v-118z" fill="black" style="paint-order:normal"/>
+  <!-- Tank -->
+  <rect id="tank" x="72" y="20" width="280" height="175" rx="5.8" ry="5.8" fill="#ff2a2a" style="paint-order:normal"/>
+  <!-- Long -->
+  <rect id="long" x="147" y="58" width="30" height="100" fill="#e21d1d"/>
+  <use transform="translate(100)" xlink:href="#long"/>
+  <!-- Short -->
+  <rect id="short" x="97" y="83" width="30" height="50" fill="#e21d1d"/>
+  <use transform="translate(200)" xlink:href="#short"/>
+  <use transform="translate(100)" xlink:href="#short"/>
+  <!-- Chambers -->
+  <rect id="chamber" x="72" y="262" width="140" height="40" fill="#00c6c6"/>
+  <use transform="translate(0,70)" xlink:href="#chamber"/>
+  <use transform="translate(0,210)" xlink:href="#chamber"/>
+  <use transform="translate(0,140)" xlink:href="#chamber"/>
+  <use transform="translate(150)" xlink:href="#chamber"/>
+  <use transform="translate(150,70)" xlink:href="#chamber"/>
+  <use transform="translate(150,140)" xlink:href="#chamber"/>
+  <use transform="translate(150,210)" xlink:href="#chamber"/>
+  <use transform="translate(300)" xlink:href="#chamber"/>
+  <use transform="translate(300,140)" xlink:href="#chamber"/>
+  <use transform="translate(300,70)" xlink:href="#chamber"/>
+  <use transform="translate(300,210)" xlink:href="#chamber"/>
+</svg>

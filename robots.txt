@@ -1,0 +1,6 @@
+# Robots
+# https://www.robotstxt.org/robotstxt.html
+
+Sitemap: https://apogeedesign.com/sitemap.xml
+User-agent: *
+Disallow:

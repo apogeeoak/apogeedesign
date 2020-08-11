@@ -1,0 +1,98 @@
+@font-face {
+	font-family: Typewriter;
+	src: url(fonts/another_typewriter/atwriter.ttf);
+}
+
+html { font-family: 'Open Sans', sans-serif; font-size: 20px; }
+html, body { margin: 0; padding: 0; }
+* { box-sizing: border-box; }
+
+/* Colors */
+header, footer { background: #222; color: #ddd; }
+a { color: #4286f4; text-decoration: none; }
+section.primary { background: #ddd; color: #222; }
+section.secondary { background: #ccc; color: #222; }
+section a.contact { background: #373277; color: white; } /* Contact Us */
+
+/* Header Style */
+header {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 15% 40px;
+	text-align: center;
+}
+
+/* Title Logo */
+header h1 {
+	font-family: 'Typewriter', sans-serif;
+	font-size: 4rem;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0 0 20px;
+}
+
+/* Header Contact */
+header a {
+	display: block;
+	font-size: 0.8rem;
+	line-height: 1.5;
+}
+
+/* Section Styles */
+section {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 15%;
+}
+
+/* Section Image */
+section img { height: 400px; width: 400px; }
+section.primary img { order: 10; padding-left: 50px; }
+section.secondary img { order: -10; padding-right: 50px; }
+
+/* Section Header */
+section h2 { font-size: 1.5rem; }
+section h3 { font-size: 1.1rem; }
+
+/* Section Body */
+section a, p, li {
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+/* Contact Us */
+section a.contact {
+	display: block;
+	margin: 1rem auto;
+	max-width: 12rem;
+	padding: 0.8rem;
+	text-align: center;
+}
+
+/* Section List */
+section ul {
+	margin-left: 0;
+	padding-left: 1rem;
+}
+
+/* Footer */
+footer {
+	padding: 20px 15% 40px;
+	text-align: center;
+}
+
+footer p {
+	font-size: 0.8rem;
+	line-height: 1.5;
+}
+
+/* ***** Responsive Design ***** */
+/* Small screen size */
+@media (max-width: 1100px) {
+	header, section { flex-direction: column; }
+	section :not(img) { align-self: baseline; }
+	section img { max-height: 400px; max-width: 400px; padding: 0; width: 100%; }
+	section.primary img, section.secondary img { order: -10; padding: unset; }
+}

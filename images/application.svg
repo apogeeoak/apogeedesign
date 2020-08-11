@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="395" height="512" viewBox="0 0 395 512" version="1.1" id="application" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="letter">
+    <use transform="translate(80,-80)" xlink:href="#top"/>
+    <use transform="translate(40,-40)" xlink:href="#top"/>
+    <rect id="top" x="5" y="85" width="305" height="422" fill="#ffffff" stroke="#7c7c7c" stroke-width="10" style="paint-order:normal"/>
+  </g>
+  <g id="writing">
+    <circle id="circle" cx="75" cy="145" r="35" fill="#fa7c18" style="paint-order:normal"/>
+    <!-- Top -->
+    <g>
+      <path d="m135 127h140" stroke="#fa7c18" stroke-width="20"/>
+      <path d="m135 163h140" stroke="#fa7c18" stroke-width="20"/>
+      <path d="m40 207h85" stroke="#7c7c7c" stroke-width="10"/>
+    </g>
+    <!-- Checkbox -->
+    <g id="checkbox">
+      <path d="m46 229h-5v22h5" fill="none" stroke="#7c7c7c" stroke-width="2"/>
+      <path d="m66 229h5v22h-5" fill="none" stroke="#7c7c7c" stroke-width="2"/>
+      <path d="m80 240h70" stroke="#7c7c7c" stroke-width="10"/>
+    </g>
+    <use transform="translate(125)" xlink:href="#checkbox"/>
+    <use transform="translate(0,44)" xlink:href="#checkbox"/>
+    <use transform="translate(125,44)" xlink:href="#checkbox"/>
+    <text id="checkmark" x="46" y="249" fill="#7c7c7c" font-family="'Times New Roman'" font-size="27px" style="line-height:1.25">X</text>
+    <!-- Detail line -->
+    <g stroke="#7c7c7c" stroke-width="10">
+      <path d="m40 315h235"/>
+      <path d="m40 347h235"/>
+      <path d="m40 379h235"/>
+      <path d="m40 411h235"/>
+    </g>
+    <!-- Form text -->
+    <text id="formname" x="48" y="480" fill="#7c7c7c" font-family="'Times New Roman'" font-size="60px" style="line-height:1.25">DH 4015</text>
+  </g>
+</svg>

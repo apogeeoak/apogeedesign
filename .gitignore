@@ -1,5 +1,10 @@
 # Git ignore file.
 
+# ========================= #
+# Ignored Folders and Files #
+# ========================= #
+notes/
+
 # ================================ #
 # Operating System Generated Files #
 # ================================ #
